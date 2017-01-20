@@ -2,19 +2,19 @@ header {
     text-align: center;
     background-size: cover;
     color: white;
-    margin: -80px 0 0 0;
     font-size: .8em;
     letter-spacing: 2px;
 }
 
 #topliner {
     position: relative;
-    top: 105px;
+    top: 15px;
 }
 ul.topbar {
     background: rgba(0,0,0,0.5);
     text-transform: uppercase;
     font-weight: 300;
+    margin: -80px 0 0 0;
 }
 
 li.topbar {
