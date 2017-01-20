@@ -1,0 +1,101 @@
+header {
+    text-align: center;
+    background-size: cover;
+    color: white;
+}
+
+body {
+    color: white;
+    background-color: black;
+    font-family: 'Overpass', sans-serif;
+}
+
+div.maintopic {
+    margin: 10% 25% 0px 25%;
+    text-shadow: 2px 2px 9px #000000;
+}
+
+section {
+    height: 100vh;
+}
+
+section:nth-child(1) {
+    background: url("embers-blended.png");
+    background-size: cover;
+}
+
+section:nth-child(2) {
+    background: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.3em;
+    line-height: 1.2em;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: justify;
+}
+
+img {
+    margin: 40px 0px 0px 0px;
+}
+
+ul.topbar {
+    padding: 15px;
+    background: rgba(0,0,0,0.5);
+}
+
+li.topbar {
+    display: inline;
+    padding: 0px 50px 0px 20px;
+}
+
+
+div.list{
+    margin: -30px 0px 0px 0px;
+}
+
+ul.news {
+    text-align: center;
+    margin: 5px 0px 0px 0px;
+}
+
+li.news {
+    background-color: orangered;
+    display: inline-block;
+    padding: 100px 30px 10px 10px;
+}
+
+ul.footer {
+    text-align: center;
+    margin: 50px 0px 0px 0px;
+}
+
+li.footer {
+    display: inline-block;
+}
+
+article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+    h1 {
+        font-size: 36px;
+        padding: 5px;
+    }
+    
+    li.topbar {
+        padding: 5px;
+        display: block;
+    }
+}
